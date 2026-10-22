@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Установка сигнализации с автозапуском в Саратове — СарБокс</title>
+<meta name="description" content="Ставим сигнализации StarLine с автозапуском, Android-магнитолы, камеры и автозвук за день. Шелковичная, 90А, ежедневно 10–20. Рейтинг 5,0 на Яндекс Картах">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://andrewmironov13.github.io/sarbox/">
+<link rel="preload" href="/sarbox/assets/RobotoFlex-100_1000-cyrillic-CX9LYUEt.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#070708">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="/sarbox/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/sarbox/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="СарБокс">
+<meta property="og:title" content="Установка сигнализации с автозапуском в Саратове — СарБокс">
+<meta property="og:description" content="Ставим сигнализации StarLine с автозапуском, Android-магнитолы, камеры и автозвук за день. Шелковичная, 90А, ежедневно 10–20. Рейтинг 5,0 на Яндекс Картах">
+<meta property="og:url" content="https://andrewmironov13.github.io/sarbox/">
+<meta property="og:image" content="https://andrewmironov13.github.io/sarbox/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="geo.region" content="RU-SAR">
+<meta name="geo.placename" content="Саратов">
+<meta name="geo.position" content="51.530357;45.997974"><meta name="ICBM" content="51.530357, 45.997974">
+<script>
+  // до первой отрисовки: сезон (зима — автозапуск, лето — сигнализации) и флаг js для вступительной анимации
+  (function () {
+    var d = document.documentElement, q = new URLSearchParams(location.search), s = q.get('season');
+    var m = new Date().getMonth() + 1, day = new Date().getDate();
+    // лето — с 15 апреля по 30 сентября
+    var summer = s ? s === 'summer' : (m > 4 && m < 10) || (m === 4 && day >= 15);
+    d.classList.add('js', summer ? 'is-summer' : 'is-winter');
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('rm');
+    var keys = ['signal', 'start', 'radio', 'cam', 'dvr', 'audio', 'noise'], svc = q.get('svc');
+    if (keys.indexOf(svc) < 0) svc = summer ? 'signal' : 'start';
+    d.setAttribute('data-svc0', svc);
+    // кадр первого экрана грузим сразу, не дожидаясь скрипта
+    var mob = matchMedia('(max-width: 899px)').matches, l = document.createElement('link');
+    l.rel = 'preload'; l.as = 'image'; l.fetchPriority = 'high';
+    // ролик только у «Сигнализаций» — у них свой постер под телефон; остальные вкладки — картинки
+    l.href = '/sarbox/media/hero/' + (svc === 'signal' ? 'signal' + (mob ? '-m' : '') : svc) + '.webp';
+    document.head.appendChild(l);
+  })();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["AutoRepair","LocalBusiness"],"@id":"https://andrewmironov13.github.io/sarbox/#org","name":"СарБокс","alternateName":["Сар Бокс","SAR BOX","SarBox"],"description":"Ставим сигнализации StarLine с автозапуском, Android-магнитолы, камеры и автозвук за день. Шелковичная, 90А, ежедневно 10–20. Рейтинг 5,0 на Яндекс Картах","url":"https://andrewmironov13.github.io/sarbox/","image":"https://andrewmironov13.github.io/sarbox/og.jpg","logo":"https://andrewmironov13.github.io/sarbox/apple-touch-icon.png","telephone":["+79271420042","+79085467127"],"address":{"@type":"PostalAddress","streetAddress":"улица Шелковичная, 90А","addressLocality":"Саратов","addressRegion":"Саратовская область","postalCode":"410004","addressCountry":"RU"},"geo":{"@type":"GeoCoordinates","latitude":51.530357,"longitude":45.997974},"hasMap":"https://yandex.ru/maps/org/168306310688/","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"10:00","closes":"20:00"}],"areaServed":{"@type":"City","name":"Саратов"},"sameAs":["https://t.me/SarBox64","https://vk.ru/sarbox64","https://yandex.ru/maps/org/168306310688/"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Установка автоэлектроники","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Сигнализации","description":"Установка сигнализации StarLine с GSM в Саратове. Охрана и управление — в приложении на телефоне"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Автозапуск","description":"Сигнализации StarLine с автозапуском и управлением с телефона. Подберём без лишнего, поставим за день"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Магнитолы Android","description":"Установка Android-магнитол и боксов CarPlay в Саратове. Подберём рамку и проводку, поставим за день"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Камеры","description":"Ставим камеры заднего вида с выводом на экран магнитолы. Картинка появляется сама, когда включаете заднюю"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Регистраторы","description":"Скрытая установка видеорегистраторов: провода спрячем в обшивку. Запись спереди и сзади"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Автозвук","description":"Установка автозвука: динамики, усилители, сабвуферы. Подберём под вашу машину и поставим аккуратно"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Шумоизоляция","description":"Шумоизоляция дверей и салона автомобиля. Подберём материалы под вашу машину"}}]}}]}</script>
+  <script type="module" crossorigin src="/sarbox/assets/index-Ux4TMbvr.js"></script>
+  <link rel="stylesheet" crossorigin href="/sarbox/assets/style-B4chg17T.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M13.8 16.6a1 1 0 0 0 1.2-.3l.4-.5a2 2 0 0 1 1.6-.8h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.5.4a1 1 0 0 0-.3 1.2 14 14 0 0 0 6.4 6.4"/></symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.94 4.32 18.9 19.1c-.22 1.02-.83 1.27-1.68.79l-4.64-3.42-2.24 2.16c-.25.25-.46.46-.94.46l.33-4.74 8.62-7.79c.38-.33-.08-.52-.58-.19L7.1 13.08l-4.6-1.44c-1-.31-1.02-1 .21-1.48l17.98-6.93c.83-.31 1.56.19 1.25 1.09Z"/></symbol>
+  <symbol id="i-vk" viewBox="0 0 24 24"><path fill="currentColor" d="M12.8 18.2C6.6 18.2 3 14 2.8 7h3.2c.1 5.1 2.4 7.3 4.1 7.7V7h3v4.4c1.7-.2 3.6-2.2 4.2-4.4h3c-.5 2.7-2.5 4.7-3.9 5.5 1.4.7 3.7 2.4 4.6 5.7h-3.3c-.7-2.2-2.5-4-4.6-4.2v4.2z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-cube" viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="11"><polygon points="50,7 87.2,28.5 87.2,71.5 50,93 12.8,71.5 12.8,28.5"/><polyline points="12.8,28.5 50,50 87.2,28.5"/><line x1="50" y1="50" x2="50" y2="93"/></g></symbol>
+  <symbol id="i-cube-logo" viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="9" stroke-linejoin="miter"><polygon points="50,7 87.2,28.5 87.2,71.5 50,93 12.8,71.5 12.8,28.5"/><polyline points="12.8,28.5 50,50 87.2,28.5"/><line x1="50" y1="50" x2="50" y2="93"/></g></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.8l2.75 5.82 6.35.78-4.68 4.39 1.2 6.29L12 17l-5.62 3.08 1.2-6.29L2.9 9.4l6.35-.78z"/></symbol>
+  <symbol id="i-power" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 3.5v7.5"/><path d="M6.6 7.2a7.5 7.5 0 1 0 10.8 0"/></g></symbol>
+  <symbol id="i-seat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5c.9 0 1.6.7 1.6 1.6V13h7.2c1.3 0 2.4 1.1 2.4 2.4V18H8.6A3.1 3.1 0 0 1 5.5 15V5.1c0-.9.6-1.6 1.5-1.6Z"/><path d="M8.6 21h9.6"/><path d="M13 3.5c-.8 1 .8 1.9 0 3s.8 2 0 3"/><path d="M16.6 3.5c-.8 1 .8 1.9 0 3s.8 2 0 3"/></g></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2.6"/><path d="M8.5 10.5V7.6a3.5 3.5 0 0 1 7 0v2.9"/><path d="M12 14.6v2"/></g></symbol>
+  <symbol id="i-screen" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="12" rx="3"/><path d="M10 9l4 2-4 2z" fill="currentColor"/><path d="M8 20h8"/></g></symbol>
+  <symbol id="i-rec" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.8" y="6.5" width="13.4" height="11" rx="2.8"/><path d="M16.2 10.4l5-2.7v8.6l-5-2.7"/></g></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.6 20.6 8 12 12.4 3.4 8z"/><path d="M3.4 12.2 12 16.6l8.6-4.4"/><path d="M3.4 16.2 12 20.6l8.6-4.4"/></g></symbol>
+  <symbol id="i-gps" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="6.6"/><circle cx="12" cy="12" r="1.9"/><path d="M12 2.6v3.2M12 18.2v3.2M2.6 12h3.2M18.2 12h3.2"/></g></symbol>
+  <symbol id="i-mobile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6.8" y="2.8" width="10.4" height="18.4" rx="2.6"/><path d="M10.6 17.9h2.8"/></g></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.2" y="5.5" width="17.6" height="11" rx="5.5"/><circle cx="12" cy="11" r="2.9"/><path d="M12 16.5v3.6M8.4 20.1h7.2"/></g></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.8l7.6 3v5.8c0 4.7-3.2 8.5-7.6 9.6-4.4-1.1-7.6-4.9-7.6-9.6V5.8z"/><path d="M8.6 9.9 12 11.8l3.4-1.9M12 11.8v4"/></g></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19.2 8.8a2.8 2.8 0 0 0-4-4L4 16z"/><path d="M13.6 6.4l4 4"/></g></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-cam-view" viewBox="0 0 64 44"><g fill="none"><path d="M14 44L24 18M50 44L40 18" stroke="#FFFFFF" stroke-width="1.4" opacity=".9"/><path d="M19.5 31h25" stroke="#FFFFFF" stroke-width="1.2" opacity=".55"/><path d="M22 24h20" stroke="#FFFFFF" stroke-width="1" opacity=".3"/><path d="M16.5 38h31" stroke="#FFFFFF" stroke-width="1.4" opacity=".8"/></g></symbol>
+</svg>
+
+<a class="skip" href="#main">К содержимому</a>
+
+<!-- ═════════ шапка: на первом экране прозрачная, после него — плотная полоса сверху ═════════ -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="logo" href="#top" aria-label="СарБокс — наверх">
+      <svg aria-hidden="true"><use href="#i-cube-logo"/></svg>
+      <span class="logo__word"><span class="logo__name">СарБокс</span> <span class="logo__sub">автоэлектроника</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Разделы">
+      <a href="#services">Услуги</a><a href="#works">Работы</a><a href="#calc">Подбор</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a>
+    </nav>
+    <div class="nav__right">
+      <span class="live" data-live><i></i><span data-live-t>10:00–20:00</span></span>
+      <span class="nav__sep"></span>
+      <a class="nav__phone" href="tel:+79271420042" data-goal="phone">+7 927 142-00-42</a>
+      <div class="nav__quick">
+        <a class="qbtn qbtn--phone" href="tel:+79271420042" aria-label="Позвонить" data-goal="phone"><svg><use href="#i-phone"/></svg></a>
+        <a class="qbtn qbtn--tg" href="https://t.me/nikey1m" target="_blank" rel="noopener" aria-label="Написать в Telegram" data-goal="tg"><svg><use href="#i-tg"/></svg></a>
+      </div>
+      <a class="btn btn--sm nav__cta" href="https://t.me/nikey1m" target="_blank" rel="noopener" data-book>Записаться</a>
+      <button class="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="menu" data-menu><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ═════════ первый экран: ряд услуг — вкладки, как на магнитоле ═════════ -->
+<section class="hero" id="top">
+
+  <div class="hero-slots">
+    <!-- ЗИМА: автозапуск. Картинка двора, машина уже заведена -->
+    <div class="hero-slot slot--still is-active" data-svc="start" aria-hidden="true">
+      <div class="hero-stage stage--w">
+        <img class="hero-frame" data-src="/sarbox/media/hero/start.webp" data-srcset="/sarbox/media/hero/start-1120.webp 1120w, /sarbox/media/hero/start.webp 1672w" sizes="(max-width: 899px) 180vw, 110vw" alt="" decoding="async" fetchpriority="high" width="1672" height="941">
+        <svg class="hero-leaders" viewBox="0 0 1672 941" preserveAspectRatio="none">
+          <g class="d-only">
+            <path pathLength="1" d="M1258 250V328"/>
+            <circle class="dot-halo" cx="1258" cy="344" r="17"/><circle class="dot-back" cx="1258" cy="344" r="9"/><circle class="dot-ring" cx="1258" cy="344" r="9"/><circle class="dot-core" cx="1258" cy="344" r="3.6"/>
+            <path pathLength="1" d="M1150 640H1128L1072 470"/>
+            <circle class="dot-halo" cx="1066" cy="456" r="17"/><circle class="dot-back" cx="1066" cy="456" r="9"/><circle class="dot-ring" cx="1066" cy="456" r="9"/><circle class="dot-core" cx="1066" cy="456" r="3.6"/>
+          </g>
+          <g class="m-only">
+            <path pathLength="1" d="M1260 232V318"/>
+            <circle class="dot-halo" cx="1260" cy="330" r="30"/><circle class="dot-back" cx="1260" cy="330" r="16"/><circle class="dot-ring" cx="1260" cy="330" r="16"/><circle class="dot-core" cx="1260" cy="330" r="6.5"/>
+            <path pathLength="1" d="M760 232V300L1040 440"/>
+            <circle class="dot-halo" cx="1062" cy="452" r="30"/><circle class="dot-back" cx="1062" cy="452" r="16"/><circle class="dot-ring" cx="1062" cy="452" r="16"/><circle class="dot-core" cx="1062" cy="452" r="6.5"/>
+          </g>
+        </svg>
+        <div class="note note--eng d-only" style="left:68.8%; top:68%">
+          <span class="note__ic"><svg><use href="#i-power"/></svg></span>
+          <span class="note__b"><span class="note__app">StarLine · GSM</span><span class="note__t">Двигатель запущен</span><span class="note__s">с телефона <i class="note__live"></i></span></span>
+        </div>
+        <div class="note note--seat d-only" style="left:68.5%; top:22.6%">
+          <span class="note__ic note__ic--dark"><svg><use href="#i-seat"/></svg></span>
+          <span class="note__b"><span class="note__t">Подогрев сидений</span><span class="note__s">включён <span class="heat"><i></i><i></i><i></i></span></span></span>
+        </div>
+        <div class="note m-only" style="left:37.1%; top:19%">
+          <span class="note__ic"><svg><use href="#i-power"/></svg></span>
+          <span class="note__b"><span class="note__t">Двигатель запущен</span><span class="note__s">с телефона <i class="note__live"></i></span></span>
+        </div>
+        <div class="note m-only" style="left:auto; right:12.3%; top:19%">
+          <span class="note__ic note__ic--dark"><svg><use href="#i-seat"/></svg></span>
+          <span class="note__b"><span class="note__t">Подогрев сидений</span><span class="note__s">включён <span class="heat"><i></i><i></i><i></i></span></span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ЛЕТО: магнитолы. Салон днём, экран магнитолы «включён» поверх кадра -->
+    <div class="hero-slot slot--still" data-svc="radio" aria-hidden="true">
+      <div class="hero-stage stage--s">
+        <img class="hero-frame" data-src="/sarbox/media/hero/radio.webp" data-srcset="/sarbox/media/hero/radio-1120.webp 1120w, /sarbox/media/hero/radio.webp 1672w" sizes="(max-width: 899px) 240vw, 120vw" alt="" decoding="async" width="1672" height="941">
+        <svg class="hero-screen" viewBox="0 0 1672 941" preserveAspectRatio="none">
+          <defs>
+            <clipPath id="scr-clip"><path d="M743 113L846 112L864 212L792 214Z"/></clipPath>
+            <linearGradient id="scr-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A2C31"/><stop offset=".6" stop-color="#17181B"/><stop offset="1" stop-color="#0E0E10"/></linearGradient>
+            <radialGradient id="scr-spill" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".14"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+          </defs>
+          <ellipse cx="800" cy="160" rx="120" ry="80" fill="url(#scr-spill)"/>
+          <g clip-path="url(#scr-clip)">
+            <g transform="matrix(1.66 -0.01 0.2333 1.4833 672 117)">
+              <rect x="0" y="0" width="100" height="60" fill="url(#scr-bg)"/>
+              <rect x="0" y="0" width="100" height="5" fill="#fff" opacity=".06"/>
+              <g fill="#fff" opacity=".85"><rect x="88" y="1.6" width="7" height="1.6" rx=".8"/></g>
+              <g opacity=".82">
+                <rect x="48" y="11" width="11" height="11" rx="2.6" fill="#F3F3F4" opacity=".92"/>
+                <rect x="62.5" y="11" width="11" height="11" rx="2.6" fill="#F3F3F4" opacity=".55"/>
+                <rect x="77" y="11" width="11" height="11" rx="2.6" fill="#F3F3F4" opacity=".75"/>
+                <rect x="48" y="27" width="11" height="11" rx="2.6" fill="#F3F3F4" opacity=".4"/>
+                <rect x="62.5" y="27" width="11" height="11" rx="2.6" fill="#F3F3F4" opacity=".82"/>
+                <rect x="77" y="27" width="11" height="11" rx="2.6" fill="#F3F3F4" opacity=".3"/>
+                <rect x="50" y="45" width="40" height="9" rx="4.5" fill="#fff" opacity=".12"/>
+                <rect x="53" y="48.3" width="18" height="2.4" rx="1.2" fill="#FFFFFF" opacity=".95"/>
+              </g>
+              <path d="M60 0H78L52 60H34Z" fill="#fff" opacity=".045"/>
+            </g>
+          </g>
+        </svg>
+        <svg class="hero-leaders" viewBox="0 0 1672 941" preserveAspectRatio="none">
+          <g class="d-only">
+            <path pathLength="1" d="M921 226H884L846 172"/>
+            <circle class="dot-halo" cx="842" cy="164" r="17"/><circle class="dot-back" cx="842" cy="164" r="9"/><circle class="dot-ring" cx="842" cy="164" r="9"/><circle class="dot-core" cx="842" cy="164" r="3.6"/>
+          </g>
+          <g class="m-only">
+            <path pathLength="1" d="M842 332V182"/>
+            <circle class="dot-halo" cx="842" cy="164" r="30"/><circle class="dot-back" cx="842" cy="164" r="16"/><circle class="dot-ring" cx="842" cy="164" r="16"/><circle class="dot-core" cx="842" cy="164" r="6.5"/>
+          </g>
+        </svg>
+        <div class="note note--stack s-stack">
+          <div class="note">
+            <span class="note__ic"><svg><use href="#i-screen"/></svg></span>
+            <span class="note__b"><span class="note__app">Android-магнитола</span><span class="note__t">CarPlay</span><span class="note__s">карты и музыка на экране <i class="note__live"></i></span></span>
+          </div>
+          <div class="note">
+            <span class="cam"><svg><use href="#i-cam-view"/></svg></span>
+            <span class="note__b"><span class="note__t">Камера заднего вида</span><span class="note__s">на том же экране</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Сигнализации: седан анфас в темноте, на 2,2 с загораются фары — в этот момент приходит «Охрана включена» -->
+    <div class="hero-slot" data-svc="signal" aria-hidden="true">
+      <div class="hero-stage stage--x stage--signal">
+        <video class="hero-frame" data-v="signal" data-note-at="2.2" muted playsinline preload="none" disablepictureinpicture disableremoteplayback tabindex="-1"></video>
+      </div>
+      <div class="note note--slot">
+        <span class="note__ic"><svg><use href="#i-lock"/></svg></span>
+        <span class="note__b"><span class="note__app">StarLine · GSM</span><span class="note__t">Охрана включена</span><span class="note__s">на связи <i class="note__live"></i></span></span>
+      </div>
+    </div>
+
+    <!-- Камеры: седан у бокса, горят стоп-сигналы -->
+    <div class="hero-slot slot--still" data-svc="cam" aria-hidden="true">
+      <div class="hero-stage stage--x stage--cam">
+        <img class="hero-frame" data-src="/sarbox/media/hero/cam.webp" data-srcset="/sarbox/media/hero/cam-1120.webp 1120w, /sarbox/media/hero/cam.webp 1672w" sizes="(max-width: 899px) 200vw, 110vw" alt="" decoding="async" width="1672" height="941">
+      </div>
+      <div class="note note--slot">
+        <span class="cam"><svg><use href="#i-cam-view"/></svg></span>
+        <span class="note__b"><span class="note__app">Задний ход</span><span class="note__t">Камера включилась</span><span class="note__s">сама, без кнопок</span></span>
+      </div>
+    </div>
+
+    <!-- Регистраторы: бокс со светом, вид через ворота -->
+    <div class="hero-slot slot--still" data-svc="dvr" aria-hidden="true">
+      <div class="hero-stage stage--x stage--dvr">
+        <img class="hero-frame" data-src="/sarbox/media/hero/dvr.webp" data-srcset="/sarbox/media/hero/dvr-1120.webp 1120w, /sarbox/media/hero/dvr.webp 1672w" sizes="(max-width: 899px) 200vw, 110vw" alt="" decoding="async" width="1672" height="941">
+      </div>
+      <div class="note note--slot">
+        <span class="note__ic note__ic--dark"><svg><use href="#i-rec"/></svg></span>
+        <span class="note__b"><span class="note__t">Запись идёт</span><span class="note__s"><i class="rec"></i>провода в обшивке</span></span>
+      </div>
+    </div>
+
+    <!-- Автозвук: чёрный седан с горящими фарами -->
+    <div class="hero-slot slot--still" data-svc="audio" aria-hidden="true">
+      <div class="hero-stage stage--x stage--audio">
+        <img class="hero-frame" data-src="/sarbox/media/hero/audio.webp" data-srcset="/sarbox/media/hero/audio-1120.webp 1120w, /sarbox/media/hero/audio.webp 1672w" sizes="(max-width: 899px) 200vw, 110vw" alt="" decoding="async" width="1672" height="941">
+      </div>
+      <div class="note note--slot">
+        <span class="note__ic note__ic--dark"><span class="eq"><i></i><i></i><i></i><i></i><i></i></span></span>
+        <span class="note__b"><span class="note__t">Звук настроен</span><span class="note__s">под ваш салон</span></span>
+      </div>
+    </div>
+
+    <!-- Шумоизоляция: дверь без обшивки, фольгированные маты -->
+    <div class="hero-slot slot--still" data-svc="noise" aria-hidden="true">
+      <div class="hero-stage stage--x stage--noise">
+        <img class="hero-frame" data-src="/sarbox/media/hero/noise.webp" data-srcset="/sarbox/media/hero/noise-1120.webp 1120w, /sarbox/media/hero/noise.webp 1672w" sizes="(max-width: 899px) 200vw, 110vw" alt="" decoding="async" width="1672" height="941">
+      </div>
+      <div class="note note--slot">
+        <span class="note__ic"><svg><use href="#i-layers"/></svg></span>
+        <span class="note__b"><span class="note__t">Двери</span><span class="note__s">виброизоляция и шумопоглотитель</span></span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // кадр открытой вкладки — сразу, не дожидаясь бандла (предзагрузка уже идёт из head)
+    (function () {
+      var k = document.documentElement.getAttribute('data-svc0'), s = document.querySelector('.hero-slot[data-svc="' + k + '"]');
+      if (!s) return;
+      document.querySelectorAll('.hero-slot.is-active').forEach(function (x) { x.classList.remove('is-active'); });
+      s.classList.add('is-active');
+      var i = s.querySelector('img[data-src]');
+      if (i) { if (i.dataset.srcset) i.srcset = i.dataset.srcset; i.src = i.dataset.src; i.removeAttribute('data-src'); }
+    })();
+  </script>
+  <div class="hero-shade" aria-hidden="true"></div>
+
+  <div class="container hero__body">
+    <h1 class="eyebrow hero__eyebrow intro"><svg aria-hidden="true"><use href="#i-cube"/></svg>Установочный центр СарБокс · Саратов</h1>
+    <!-- все семь вкладок в разметке: поиск видит каждую услугу, скрипт только переключает -->
+    <div class="svc-panels">
+      <div class="svc-panel" id="panel-signal" role="tabpanel" aria-labelledby="tab-signal" data-svc="signal" aria-hidden="true" inert>
+        <h2 class="h1"><span class="h1__clip"><span class="h1__svc">Сигнализации</span></span><span class="sr"> — </span><span class="h1__acc">тревога сразу на телефон</span></h2>
+        <p class="hero__lead"><b>Установка сигнализации StarLine с&nbsp;GSM в&nbsp;Саратове.</b> Охрана и&nbsp;управление&nbsp;— в&nbsp;приложении на&nbsp;телефоне</p>
+      </div>
+      <div class="svc-panel is-on" id="panel-start" role="tabpanel" aria-labelledby="tab-start" data-svc="start" tabindex="0">
+        <h2 class="h1"><span class="h1__clip"><span class="h1__svc">Автозапуск</span></span><span class="sr"> — </span><span class="h1__acc">садитесь в тёплую</span></h2>
+        <p class="hero__lead"><b>Сигнализации StarLine с&nbsp;автозапуском и&nbsp;управлением с&nbsp;телефона.</b> Подберём без&nbsp;лишнего, поставим за&nbsp;день</p>
+      </div>
+      <div class="svc-panel" id="panel-radio" role="tabpanel" aria-labelledby="tab-radio" data-svc="radio" aria-hidden="true" inert>
+        <h2 class="h1"><span class="h1__clip"><span class="h1__svc">Магнитолы</span></span><span class="sr"> — </span><span class="h1__acc">с CarPlay и камерой</span></h2>
+        <p class="hero__lead"><b>Установка Android-магнитол и&nbsp;боксов CarPlay в&nbsp;Саратове.</b> Подберём рамку и&nbsp;проводку, поставим за&nbsp;день</p>
+      </div>
+      <div class="svc-panel" id="panel-cam" role="tabpanel" aria-labelledby="tab-cam" data-svc="cam" aria-hidden="true" inert>
+        <h2 class="h1"><span class="h1__clip"><span class="h1__svc">Камеры</span></span><span class="sr"> — </span><span class="h1__acc">парковка без царапин</span></h2>
+        <p class="hero__lead"><b>Ставим камеры заднего вида с&nbsp;выводом на&nbsp;экран магнитолы.</b> Картинка появляется сама, когда включаете заднюю</p>
+      </div>
+      <div class="svc-panel" id="panel-dvr" role="tabpanel" aria-labelledby="tab-dvr" data-svc="dvr" aria-hidden="true" inert>
+        <h2 class="h1"><span class="h1__clip"><span class="h1__svc">Регистраторы</span></span><span class="sr"> — </span><span class="h1__acc">запись на случай ДТП</span></h2>
+        <p class="hero__lead"><b>Скрытая установка видеорегистраторов: провода спрячем в&nbsp;обшивку.</b> Запись спереди и&nbsp;сзади</p>
+      </div>
+      <div class="svc-panel" id="panel-audio" role="tabpanel" aria-labelledby="tab-audio" data-svc="audio" aria-hidden="true" inert>
+        <h2 class="h1"><span class="h1__clip"><span class="h1__svc">Автозвук</span></span><span class="sr"> — </span><span class="h1__acc">музыка без дребезга</span></h2>
+        <p class="hero__lead"><b>Установка автозвука: динамики, усилители, сабвуферы.</b> Подберём под&nbsp;вашу машину и&nbsp;поставим аккуратно</p>
+      </div>
+      <div class="svc-panel" id="panel-noise" role="tabpanel" aria-labelledby="tab-noise" data-svc="noise" aria-hidden="true" inert>
+        <h2 class="h1"><span class="h1__clip"><span class="h1__svc">Шумоизоляция</span></span><span class="sr"> — </span><span class="h1__acc">меньше гула с дороги</span></h2>
+        <p class="hero__lead"><b>Шумоизоляция дверей и&nbsp;салона автомобиля.</b> Подберём материалы под&nbsp;вашу машину</p>
+      </div>
+    </div>
+    <div class="hero__cta intro">
+      <!-- первое действие сразу: марка машины → запись открывается уже заполненной -->
+      <form class="carfield" data-carfield autocomplete="off">
+        <label class="sr" for="hero-car">Ваша машина</label>
+        <input class="carfield__in" id="hero-car" name="car" type="text" placeholder="Ваша машина, например Kia&nbsp;Rio" maxlength="60" enterkeyhint="go">
+        <button class="carfield__go" type="submit">Записаться <span class="btn__go"><svg><use href="#i-arrow"/></svg></span></button>
+      </form>
+      <a class="btn btn--glass" href="tel:+79271420042" data-goal="phone"><svg><use href="#i-phone"/></svg><span class="d-txt">+7 927 142-00-42</span><span class="m-txt">Позвонить</span></a>
+    </div>
+    <p class="hero__hint intro">Консультация и&nbsp;подбор&nbsp;— бесплатно</p>
+    <a class="hero__rate m-only intro" href="https://yandex.ru/maps/org/168306310688/reviews/" target="_blank" rel="noopener" data-goal="reviews"><span class="hero__rate-v">★ 5,0</span> 72&nbsp;оценки на&nbsp;Яндекс&nbsp;Картах</a>
+  </div>
+
+  <div class="container hero__foot" id="services">
+    <div class="svc-row intro" role="tablist" aria-label="Что ставим">
+      <span class="svc-row__k" aria-hidden="true">Ставим</span>
+      <span class="svc-ind" aria-hidden="true"></span>
+      <button class="chip" type="button" role="tab" id="tab-signal" data-svc="signal" aria-controls="panel-signal" aria-selected="false" tabindex="-1">Сигнализации</button>
+      <button class="chip is-on" type="button" role="tab" id="tab-start" data-svc="start" aria-controls="panel-start" aria-selected="true" tabindex="0">Автозапуск</button>
+      <button class="chip" type="button" role="tab" id="tab-radio" data-svc="radio" aria-controls="panel-radio" aria-selected="false" tabindex="-1">Магнитолы Android</button>
+      <button class="chip" type="button" role="tab" id="tab-cam" data-svc="cam" aria-controls="panel-cam" aria-selected="false" tabindex="-1">Камеры</button>
+      <button class="chip" type="button" role="tab" id="tab-dvr" data-svc="dvr" aria-controls="panel-dvr" aria-selected="false" tabindex="-1">Регистраторы</button>
+      <button class="chip" type="button" role="tab" id="tab-audio" data-svc="audio" aria-controls="panel-audio" aria-selected="false" tabindex="-1">Автозвук</button>
+      <button class="chip" type="button" role="tab" id="tab-noise" data-svc="noise" aria-controls="panel-noise" aria-selected="false" tabindex="-1">Шумоизоляция</button>
+    </div>
+    <div class="facts intro">
+      <a class="fact" href="https://yandex.ru/maps/org/168306310688/reviews/" target="_blank" rel="noopener" data-goal="reviews"><span class="fact__v star">5,0</span> <span class="fact__l">72&nbsp;оценки на&nbsp;Яндекс&nbsp;Картах</span></a>
+      <div class="fact"><span class="fact__v">За день</span> <span class="fact__l">ставим<br class="m-br"> и&nbsp;настраиваем</span></div>
+      <div class="fact"><span class="fact__v">Шелковичная, 90А</span> <span class="fact__l">центр Саратова</span></div>
+      <div class="fact"><span class="fact__v">10–20</span> <span class="fact__l">каждый день</span></div>
+      <a class="scroll-hint" href="#works">Листайте</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ работы ═════════ -->
+<section class="works" id="works">
+  <div class="container">
+    <div class="sec__head works__head rv">
+      <div>
+        <p class="eyebrow"><svg aria-hidden="true"><use href="#i-cube"/></svg>Из нашего бокса</p>
+        <h2 class="h2">Работы <span class="h2__acc">от Лады до Лексуса</span></h2>
+      </div>
+      <a class="lnk" href="https://t.me/SarBox64" target="_blank" rel="noopener" data-goal="tg_channel">Все работы в&nbsp;Telegram <span class="lnk__go"><svg><use href="#i-arrow"/></svg></span></a>
+    </div>
+    <!-- ровная сетка: фото из Telegram 600×800, карточки ~320 px — без растяжения даже на ретине -->
+    <div class="wk">
+      <figure class="wk__i rv" style="--y:.3"><img data-src="/sarbox/media/works/tg-1.jpg" alt="Toyota Corolla в боксе СарБокс, в руке коробка сигнализации StarLine S96 v2" loading="lazy" decoding="async" width="600" height="800"><figcaption class="wk__cap"><h3 class="wk__car">Toyota Corolla</h3> <p class="wk__what">Сигнализация StarLine S96 v2</p></figcaption></figure>
+      <figure class="wk__i rv" style="--d:0.06s; --y:.3"><img data-src="/sarbox/media/works/tg-8.jpg" alt="Renault Logan с коробкой сигнализации StarLine A93 v2" loading="lazy" decoding="async" width="600" height="800"><figcaption class="wk__cap"><h3 class="wk__car">Renault Logan</h3> <p class="wk__what">Сигнализация StarLine A93 v2</p></figcaption></figure>
+      <figure class="wk__i rv" style="--d:0.12s; --y:.5"><img data-src="/sarbox/media/works/tg-9.jpg" alt="Hyundai Creta в боксе СарБокс после установки мультимедиа" loading="lazy" decoding="async" width="600" height="800"><figcaption class="wk__cap"><h3 class="wk__car">Hyundai Creta</h3> <p class="wk__what">Мультимедиа и&nbsp;камера заднего вида</p></figcaption></figure>
+      <figure class="wk__i rv" style="--d:0.18s; --y:.45"><img data-src="/sarbox/media/works/tg-3.jpg" alt="Lexus LX в боксе СарБокс" loading="lazy" decoding="async" width="600" height="800"><figcaption class="wk__cap"><h3 class="wk__car">Lexus LX</h3> <p class="wk__what">Android-бокс для&nbsp;штатного экрана</p></figcaption></figure>
+      <figure class="wk__i rv" style="--y:.3"><img data-src="/sarbox/media/works/tg-6.jpg" alt="Skoda Yeti с коробкой сигнализации StarLine" loading="lazy" decoding="async" width="600" height="800"><figcaption class="wk__cap"><h3 class="wk__car">Skoda Yeti</h3> <p class="wk__what">Сигнализация StarLine</p></figcaption></figure>
+      <figure class="wk__i rv" style="--d:0.06s; --y:.36"><img data-src="/sarbox/media/works/tg-13.jpg" alt="Android-магнитола в Lada Largus" loading="lazy" decoding="async" width="600" height="800"><figcaption class="wk__cap"><h3 class="wk__car">Lada Largus</h3> <p class="wk__what">Мультимедиа и&nbsp;камера</p></figcaption></figure>
+      <figure class="wk__i rv" style="--d:0.12s; --y:.45"><img data-src="/sarbox/media/works/tg-15.jpg" alt="Skoda Fabia в боксе СарБокс" loading="lazy" decoding="async" width="600" height="800"><figcaption class="wk__cap"><h3 class="wk__car">Skoda Fabia</h3> <p class="wk__what">Android-магнитола</p></figcaption></figure>
+      <a class="wk__i wk__more rv" style="--d:.18s" href="https://t.me/SarBox64" target="_blank" rel="noopener" data-goal="tg_channel"><span class="wk__more-k">Ещё работы</span><span class="wk__more-t">В&nbsp;нашем Telegram-канале</span><span class="lnk__go"><svg><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ как мы работаем ═════════ -->
+<section class="sec how" id="how">
+  <div class="container">
+    <div class="sec__head rv">
+      <div>
+        <p class="eyebrow"><svg aria-hidden="true"><use href="#i-cube"/></svg>Как мы работаем</p>
+        <h2 class="h2">Установка <span class="h2__acc">за один день</span></h2>
+      </div>
+    </div>
+    <ol class="steps">
+      <li class="step rv">
+        <span class="step__n">01</span>
+        <h3 class="step__t">Подберём</h3>
+        <p class="step__p">Звоните или пишите: бесплатно подберём комплект под&nbsp;вашу машину и&nbsp;бюджет</p>
+        <div class="step__w step__chips">
+          <a class="chip" href="tel:+79271420042" data-goal="phone"><svg><use href="#i-phone"/></svg>Звонок</a>
+          <a class="chip" href="https://t.me/nikey1m" target="_blank" rel="noopener" data-goal="tg"><svg><use href="#i-tg"/></svg>Telegram</a>
+        </div>
+      </li>
+      <li class="step rv" style="--d:.12s">
+        <span class="step__n">02</span>
+        <h3 class="step__t">Поставим за&nbsp;день</h3>
+        <p class="step__p">Утром привозите&nbsp;— к&nbsp;вечеру машина готова</p>
+        <div class="step__w day" aria-hidden="true">
+          <div class="day__track"><span class="day__fill"></span><span class="day__dot"></span></div>
+          <div class="day__k"><span>10:00</span><span class="day__now" data-day-now></span><span>20:00</span></div>
+        </div>
+      </li>
+      <li class="step rv" style="--d:.24s">
+        <span class="step__n">03</span>
+        <h3 class="step__t">Объясним</h3>
+        <p class="step__p">Покажем, как заводить с&nbsp;телефона и&nbsp;брелока, и&nbsp;останемся на&nbsp;связи</p>
+        <div class="step__w" aria-hidden="true">
+          <div class="note note--flat">
+            <span class="note__ic"><svg><use href="#i-power"/></svg></span>
+            <span class="note__b"><span class="note__app">StarLine · GSM</span><span class="note__t">Двигатель запущен</span><span class="note__s">с телефона <i class="note__live"></i></span></span>
+          </div>
+        </div>
+      </li>
+    </ol>
+    <div class="warranty rv">
+      <span class="warranty__ic"><svg><use href="#i-shield"/></svg></span>
+      <div class="warranty__b">
+        <p class="warranty__t">Гарантия на&nbsp;работу и&nbsp;оборудование</p>
+      </div>
+      <a class="btn btn--acc" href="https://t.me/nikey1m" target="_blank" rel="noopener" data-book>Записаться <span class="btn__go"><svg><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ подбор комплекта ═════════ -->
+<section class="sec calc" id="calc" aria-labelledby="calc-h">
+  <div class="container">
+    <div class="sec__head calc__head rv">
+      <div>
+        <p class="eyebrow"><svg aria-hidden="true"><use href="#i-cube"/></svg>Соберите комплект</p>
+        <h2 class="h2" id="calc-h">Подбор <span class="h2__acc">под вашу машину</span></h2>
+      </div>
+      <p class="calc__lead">Отметьте, что нужно, — подберём комплект и&nbsp;пришлём цену установки</p>
+    </div>
+
+    <div class="calc__grid">
+      <div class="calc__steps">
+        <div class="cstep rv" role="group" aria-labelledby="calc-s1">
+          <div class="cstep__h"><span class="cstep__n">01</span><h3 class="cstep__t" id="calc-s1">Машина</h3></div>
+          <div class="cstep__row">
+            <label class="cfield">
+              <span class="ck">Марка и модель</span>
+              <span class="cfield__box">
+                <input class="cfield__in" id="calc-car" type="text" placeholder="Например, Kia Rio" autocomplete="off" spellcheck="false" maxlength="60">
+                <svg class="cfield__ic" aria-hidden="true"><use href="#i-edit"/></svg>
+              </span>
+            </label>
+            <div class="cyear">
+              <span class="ck" id="calc-year-k">Год выпуска</span>
+              <div class="seg" role="radiogroup" aria-labelledby="calc-year-k" style="--i:1">
+                <span class="seg__thumb" aria-hidden="true"></span>
+                <button class="seg__b" type="button" role="radio" aria-checked="false" tabindex="0">до 2015</button>
+                <button class="seg__b" type="button" role="radio" aria-checked="false" tabindex="-1">2015–2020</button>
+                <button class="seg__b" type="button" role="radio" aria-checked="false" tabindex="-1">2021 и новее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cstep rv" style="--d:.1s" role="group" aria-labelledby="calc-s2">
+          <div class="cstep__h"><span class="cstep__n">02</span><h3 class="cstep__t" id="calc-s2">Что нужно</h3><span class="cstep__hint">можно несколько</span></div>
+          <div class="ckeys">
+            <button class="ckey ckey--wide" type="button" aria-pressed="true" data-k="start" data-t="Автозапуск">
+              <span class="ckey__top"><svg class="ckey__ic" aria-hidden="true"><use href="#i-power"/></svg><i class="ckey__led" aria-hidden="true"></i></span>
+              <span class="ckey__t">Автозапуск</span>
+            </button>
+            <button class="ckey" type="button" aria-pressed="true" data-k="phone" data-t="Управление с телефона">
+              <span class="ckey__top"><svg class="ckey__ic" aria-hidden="true"><use href="#i-mobile"/></svg><i class="ckey__led" aria-hidden="true"></i></span>
+              <span class="ckey__t">Управление с&nbsp;телефона</span>
+            </button>
+            <button class="ckey" type="button" aria-pressed="false" data-k="gps" data-t="Поиск по GPS">
+              <span class="ckey__top"><svg class="ckey__ic" aria-hidden="true"><use href="#i-gps"/></svg><i class="ckey__led" aria-hidden="true"></i></span>
+              <span class="ckey__t">Поиск по&nbsp;GPS</span>
+            </button>
+            <button class="ckey" type="button" aria-pressed="false" data-k="heat" data-t="Автозапуск подогревов">
+              <span class="ckey__top"><svg class="ckey__ic" aria-hidden="true"><use href="#i-seat"/></svg><i class="ckey__led" aria-hidden="true"></i></span>
+              <span class="ckey__t">Автозапуск подогревов</span>
+            </button>
+            <button class="ckey" type="button" aria-pressed="false" data-k="cam" data-t="Камера заднего вида">
+              <span class="ckey__top"><svg class="ckey__ic" aria-hidden="true"><use href="#i-camera"/></svg><i class="ckey__led" aria-hidden="true"></i></span>
+              <span class="ckey__t">Камера заднего вида</span>
+            </button>
+            <button class="ckey" type="button" aria-pressed="false" data-k="dvr" data-t="Видеорегистратор">
+              <span class="ckey__top"><svg class="ckey__ic" aria-hidden="true"><use href="#i-rec"/></svg><i class="ckey__led" aria-hidden="true"></i></span>
+              <span class="ckey__t">Видео&shy;регистратор</span>
+            </button>
+            <button class="ckey" type="button" aria-pressed="false" data-k="radio" data-t="Android-магнитола">
+              <span class="ckey__top"><svg class="ckey__ic" aria-hidden="true"><use href="#i-screen"/></svg><i class="ckey__led" aria-hidden="true"></i></span>
+              <span class="ckey__t">Android-магнитола</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="kit rv" style="--d:.14s" aria-labelledby="kit-k">
+        <div class="kit__ruler" aria-hidden="true"></div>
+        <div class="kit__top">
+          <p class="kit__k" id="kit-k"><svg aria-hidden="true"><use href="#i-cube"/></svg>Ваш комплект</p>
+          <p class="kit__cnt" aria-hidden="true"><b data-cnt>02</b> / 07</p>
+        </div>
+        <div aria-live="polite">
+          <p class="kit__fit">Например</p>
+          <p class="kit__name"><span class="kit__brand">StarLine</span><span class="kit__m">S96 v2 GSM</span></p>
+          <p class="kit__note">Точную модель подберём по&nbsp;вашей машине</p>
+        </div>
+        <ol class="kit__list">
+          <li data-k="start"><i>01</i>Автозапуск</li>
+          <li data-k="phone"><i>02</i>Управление с телефона</li>
+        </ol>
+        <dl class="kit__rows">
+          <div class="kit__row"><dt>Установка</dt><dd>за&nbsp;день</dd></div>
+          <div class="kit__row"><dt>Консультация и&nbsp;подбор</dt><dd>бесплатно</dd></div>
+          <div class="kit__row kit__row--price"><dt>Стоимость</dt><dd>пришлём в&nbsp;Telegram</dd></div>
+        </dl>
+        <div class="kit__btns">
+          <a class="btn btn--acc" href="https://t.me/nikey1m" target="_blank" rel="noopener" data-kit-tg data-goal="calc_tg">Узнать цену в&nbsp;Telegram <span class="btn__go btn__go--tg"><svg><use href="#i-tg"/></svg></span></a>
+          <a class="btn btn--glass" href="tel:+79271420042" data-goal="phone"><svg><use href="#i-phone"/></svg>Позвонить</a>
+        </div>
+        <p class="kit__sum" aria-live="polite">2 функции</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ отзывы ═════════ -->
+<section class="sec reviews" id="reviews">
+  <div class="container rvw">
+    <div class="rvw__side rv">
+      <div>
+        <p class="eyebrow"><svg aria-hidden="true"><use href="#i-cube"/></svg>Отзывы</p>
+        <h2 class="h2">Наши отзывы</h2>
+      </div>
+      <div class="rate">
+        <span class="rate__v" data-count="5,0">5,0</span>
+        <div>
+          <span class="stars" role="img" aria-label="5 из 5"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+          <p class="rate__l">на&nbsp;Яндекс Картах · 72&nbsp;оценки</p>
+        </div>
+      </div>
+      <a class="btn btn--glass" href="https://yandex.ru/maps/org/168306310688/reviews/" target="_blank" rel="noopener" data-goal="reviews">Все отзывы на&nbsp;Яндекс Картах <span class="lnk__go"><svg><use href="#i-arrow"/></svg></span></a>
+    </div>
+    <div class="rvw__list" tabindex="0" role="region" aria-label="Отзывы с Яндекс Карт">
+      <div class="rvw__col">
+        <figure class="rev rv">
+          <span class="rev__q" aria-hidden="true">«</span>
+          <blockquote>Установили сигнализацию на&nbsp;Kia Sportage NQ5 Китайской сборки, автозапуск двигателя и&nbsp;автозапуск подогревов. А&nbsp;так&nbsp;же допом по&nbsp;просьбе сетку радиатора. <mark>Парни профи</mark>, обращайтесь не&nbsp;пожалеете, все&nbsp;сделают.</blockquote>
+          <figcaption><span class="rev__av">А</span><span class="rev__who"><span class="rev__name">Артем Федоров</span> <span class="rev__date">23 сентября</span></span><span class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></figcaption>
+        </figure>
+        <figure class="rev rv" style="--d:.1s">
+          <span class="rev__q" aria-hidden="true">«</span>
+          <blockquote>Ставил сигнализацию на&nbsp;бмв. Отличный специалист, <mark>все&nbsp;функции работают</mark>, умеренная цена за&nbsp;работу</blockquote>
+          <figcaption><span class="rev__av">М</span><span class="rev__who"><span class="rev__name">Михаил М</span> <span class="rev__date">7 сентября</span></span><span class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></figcaption>
+        </figure>
+      </div>
+      <div class="rvw__col">
+        <figure class="rev rv" style="--d:.06s">
+          <span class="rev__q" aria-hidden="true">«</span>
+          <blockquote>Отличные ребята, грамотные, вежливые, профессионалы! Устанавливал магнитолу с&nbsp;Озона, <mark>записали в&nbsp;день обращения</mark>, установили и&nbsp;помогали с&nbsp;доработками на&nbsp;протяжении всего времени по&nbsp;вине продавца!</blockquote>
+          <figcaption><span class="rev__av">А</span><span class="rev__who"><span class="rev__name">Алексей Г.</span> <span class="rev__date">18 сентября</span></span><span class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></figcaption>
+        </figure>
+        <figure class="rev rv" style="--d:.16s">
+          <span class="rev__q" aria-hidden="true">«</span>
+          <blockquote>На&nbsp;днях устанавливала сигнализацию старлайн, ребята молодцы💪 <mark>сделали все&nbsp;четко, грамотно и&nbsp;быстро!</mark> Еще раз большое спасибо</blockquote>
+          <figcaption><span class="rev__av">З</span><span class="rev__who"><span class="rev__name">Злата С.</span> <span class="rev__date">5 сентября</span></span><span class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="rvw__bar" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+<!-- ═════════ вопросы ═════════ -->
+<section class="sec faq" id="faq">
+  <div class="container faq__in">
+    <div class="sec__head faq__head rv">
+      <div>
+        <p class="eyebrow"><svg aria-hidden="true"><use href="#i-cube"/></svg>Вопросы</p>
+        <h2 class="h2">Вопросы <span class="h2__acc">перед установкой</span></h2>
+      </div>
+    </div>
+    <div class="faq__list" data-faq>
+      <div class="qa rv" style="--d:0.00s">
+        <h3 class="qa__h"><button class="qa__q" type="button" aria-expanded="false" aria-controls="qa-0" id="qa-b-0"><span class="qa__n">01</span> <span class="qa__t">Сколько стоит установка?</span><span class="qa__ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__a" id="qa-0" role="region" aria-labelledby="qa-b-0"><p>Зависит от&nbsp;машины и&nbsp;комплекта. Напишите марку и&nbsp;год&nbsp;— пришлём цену с&nbsp;установкой</p></div>
+      </div>
+      <div class="qa rv" style="--d:0.05s">
+        <h3 class="qa__h"><button class="qa__q" type="button" aria-expanded="false" aria-controls="qa-1" id="qa-b-1"><span class="qa__n">02</span> <span class="qa__t">Сколько времени займёт?</span><span class="qa__ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__a" id="qa-1" role="region" aria-labelledby="qa-b-1"><p>Обычно один день: утром привозите, к&nbsp;вечеру забираете</p></div>
+      </div>
+      <div class="qa rv" style="--d:0.10s">
+        <h3 class="qa__h"><button class="qa__q" type="button" aria-expanded="false" aria-controls="qa-2" id="qa-b-2"><span class="qa__n">03</span> <span class="qa__t">Есть гарантия?</span><span class="qa__ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__a" id="qa-2" role="region" aria-labelledby="qa-b-2"><p>Да, на&nbsp;работу и&nbsp;на&nbsp;оборудование. Срок назовём при&nbsp;записи</p></div>
+      </div>
+      <div class="qa rv" style="--d:0.15s">
+        <h3 class="qa__h"><button class="qa__q" type="button" aria-expanded="false" aria-controls="qa-3" id="qa-b-3"><span class="qa__n">04</span> <span class="qa__t">Можно сначала просто посоветоваться?</span><span class="qa__ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__a" id="qa-3" role="region" aria-labelledby="qa-b-3"><p>Да, консультация и&nbsp;подбор бесплатные. Позвоните или напишите&nbsp;— подскажем, что подойдёт вашей машине</p></div>
+      </div>
+      <div class="qa rv" style="--d:0.20s">
+        <h3 class="qa__h"><button class="qa__q" type="button" aria-expanded="false" aria-controls="qa-4" id="qa-b-4"><span class="qa__n">05</span> <span class="qa__t">Где вы находитесь?</span><span class="qa__ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__a" id="qa-4" role="region" aria-labelledby="qa-b-4"><p>Шелковичная, 90А, центр Саратова. Каждый день с&nbsp;10:00 до&nbsp;20:00</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ запись и контакты ═════════ -->
+<section class="sec cta" id="contacts">
+  <div class="cta__bg" aria-hidden="true">
+    <img src="/sarbox/media/hero/box.webp" srcset="/sarbox/media/hero/box-1120.webp 1120w, /sarbox/media/hero/box.webp 1672w" sizes="(max-width: 899px) 180vw, 90vw" alt="" loading="lazy" decoding="async" width="1672" height="941">
+  </div>
+  <div class="cta__shade" aria-hidden="true"></div>
+  <div class="container cta__in">
+    <div class="cta__text rv">
+      <p class="eyebrow"><svg aria-hidden="true"><use href="#i-cube"/></svg>Контакты</p>
+      <h2 class="cta__h"><span class="t1">Запишитесь</span> <span class="t2">на&nbsp;установку</span></h2>
+      <p class="cta__lead">Напишите марку машины&nbsp;— подберём оборудование и&nbsp;время</p>
+      <div class="cta__btns">
+        <a class="btn btn--acc" href="https://t.me/nikey1m" target="_blank" rel="noopener" data-book>Записаться <span class="btn__go"><svg><use href="#i-arrow"/></svg></span></a>
+        <a class="btn btn--glass" href="tel:+79271420042" data-goal="phone"><svg><use href="#i-phone"/></svg><span class="d-txt">+7 927 142-00-42</span><span class="m-txt">Позвонить</span></a>
+      </div>
+    </div>
+
+    <div class="place rv" style="--d:.12s">
+      <div class="place__map">
+        <svg class="map" viewBox="0 0 560 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <radialGradient id="mapGlow" cx="325" cy="139" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".08"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+            <radialGradient id="mapVig" cx=".5" cy=".5" r=".72"><stop offset=".55" stop-color="#0B0B0C" stop-opacity="0"/><stop offset="1" stop-color="#0B0B0C" stop-opacity=".9"/></radialGradient>
+          </defs>
+          <path d="M498 -10C470 70 522 150 484 310H580V-10Z" fill="rgba(255,255,255,.035)"/>
+          <path d="M498 -10C470 70 522 150 484 310" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+          <g transform="rotate(-16 280 150)">
+            <rect x="372" y="186" width="92" height="68" fill="rgba(255,255,255,.03)"/>
+            <path class="minor" d="M-200 -120H760 M-200 -86H760 M-200 -52H760 M-200 -18H760 M-200 16H760 M-200 50H760 M-200 84H760 M-200 118H760 M-200 152H760 M-200 186H760 M-200 220H760 M-200 254H760 M-200 288H760 M-200 322H760 M-200 356H760 M-200 390H760 M-200 424H760 M-180 -200V500 M-134 -200V500 M-88 -200V500 M-42 -200V500 M4 -200V500 M50 -200V500 M96 -200V500 M142 -200V500 M188 -200V500 M234 -200V500 M280 -200V500 M326 -200V500 M372 -200V500 M418 -200V500 M464 -200V500 M510 -200V500 M556 -200V500 M602 -200V500 M648 -200V500 M694 -200V500 M740 -200V500"/>
+            <path class="major" d="M96 -200V500 M418 -200V500 M-200 50H760 M-200 288H760 M-200 430L700 -150"/>
+            <path class="major-in" d="M96 -200V500 M418 -200V500 M-200 50H760 M-200 288H760 M-200 430L700 -150"/>
+            <path class="street" d="M-200 152H760"/>
+            <path class="route" d="M234 440V152H322"/>
+            <path class="route-mask" pathLength="1" d="M234 440V152H322" stroke-dasharray="1" stroke-dashoffset="0"/>
+          </g>
+          <rect width="560" height="300" fill="url(#mapGlow)"/>
+          <rect width="560" height="300" fill="url(#mapVig)"/>
+          <g class="pin">
+            <circle class="pulse" cx="325" cy="139" r="16" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+            <circle cx="325" cy="139" r="13" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.8)" stroke-width="1"/>
+            <circle cx="325" cy="139" r="5.5" fill="#FFFFFF"/>
+          </g>
+          <g class="map__tag" transform="translate(348 121)">
+            <rect width="94" height="36" rx="18" fill="rgba(12,12,13,.86)" stroke="rgba(255,255,255,.16)"/>
+            <g transform="translate(13 10) scale(.16)" fill="none" stroke="#FFFFFF" stroke-width="11"><polygon points="50,7 87.2,28.5 87.2,71.5 50,93 12.8,71.5 12.8,28.5"/><polyline points="12.8,28.5 50,50 87.2,28.5"/><line x1="50" y1="50" x2="50" y2="93"/></g>
+            <text x="36" y="23">СарБокс</text>
+          </g>
+        </svg>
+      </div>
+      <address class="place__body">
+        <p class="place__k">Адрес</p>
+        <p class="place__addr">Шелковичная, 90А</p>
+        <p class="place__sub">центр Саратова</p>
+        <div class="place__rows">
+          <div class="place__row"><i class="open-dot" data-live-dot></i>Каждый день 10:00–20:00</div>
+          <div class="place__row"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+79271420042" data-goal="phone">+7 927 142-00-42</a><small>Никита</small></div>
+        </div>
+        <a class="lnk" href="https://yandex.ru/maps/?rtext=~51.530357,45.997974&rtt=auto" target="_blank" rel="noopener" data-goal="route">Построить маршрут <span class="lnk__go"><svg><use href="#i-arrow"/></svg></span></a>
+      </address>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="container">
+    <div class="foot__top">
+      <a class="logo" href="#top" aria-label="СарБокс — наверх">
+        <svg aria-hidden="true"><use href="#i-cube-logo"/></svg>
+        <span class="logo__word"><span class="logo__name">СарБокс</span> <span class="logo__sub" style="display:block">автоэлектроника</span></span>
+      </a>
+      <nav class="foot__nav" aria-label="Разделы сайта в подвале">
+        <a href="#services">Услуги</a><a href="#works">Работы</a><a href="#calc">Подбор</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+    <div class="foot__cols">
+      <div>
+        <p class="foot__k">Запись</p>
+        <p class="foot__line"><a href="tel:+79271420042" data-goal="phone">+7 927 142-00-42</a><small>Никита</small></p>
+        <p class="foot__line"><a href="tel:+79085467127" data-goal="phone">+7 908 546-71-27</a><small>Владимир</small></p>
+      </div>
+      <div>
+        <p class="foot__k">Адрес</p>
+        <p class="foot__line">Саратов, Шелковичная, 90А</p>
+        <p class="foot__line">Каждый день 10:00–20:00</p>
+      </div>
+      <div>
+        <p class="foot__k">На связи</p>
+        <p class="foot__line"><a href="https://t.me/nikey1m" target="_blank" rel="noopener" data-goal="tg">Написать в Telegram</a></p>
+        <p class="foot__line"><a href="https://t.me/SarBox64" target="_blank" rel="noopener" data-goal="tg_channel">Канал с работами</a><small>@SarBox64</small></p>
+        <p class="foot__line"><a href="https://vk.ru/sarbox64" target="_blank" rel="noopener" data-goal="vk">ВКонтакте</a><small>vk.ru/sarbox64</small></p>
+      </div>
+    </div>
+    <p class="foot__ghost" aria-hidden="true">СарБокс</p>
+    <div class="foot__bot">
+      <span>© 2026 СарБокс, Саратов</span>
+      <a href="https://mirwebstudio.ru" target="_blank" rel="noopener">Сайт&nbsp;— МирВеб</a>
+    </div>
+  </div>
+</footer>
+
+<!-- телефон: кнопки записи прилипли к низу экрана -->
+<div class="dock-scrim" aria-hidden="true"></div>
+<div class="dock" data-dock role="region" aria-label="Быстрая запись">
+  <a class="btn btn--acc" href="https://t.me/nikey1m" target="_blank" rel="noopener" data-book data-dock-main><span class="dock__label">Записаться</span> <span class="btn__go"><svg><use href="#i-arrow"/></svg></span></button>
+  <a class="dock__call" href="tel:+79271420042" aria-label="Позвонить" data-goal="phone"><svg><use href="#i-phone"/></svg></a>
+</div>
+
+<!-- меню на телефоне -->
+<div class="menu" id="menu" hidden>
+  <nav class="menu__links" aria-label="Разделы">
+    <a href="#services" data-close>Услуги</a><a href="#works" data-close>Работы</a><a href="#calc" data-close>Подбор</a><a href="#reviews" data-close>Отзывы</a><a href="#contacts" data-close>Контакты</a>
+  </nav>
+  <div class="menu__tiles">
+    <a class="menu__tile" href="tel:+79271420042" data-goal="phone"><svg><use href="#i-phone"/></svg><span>Позвонить</span><small>+7 927 142-00-42</small></a>
+    <a class="menu__tile" href="https://t.me/nikey1m" target="_blank" rel="noopener" data-goal="tg"><svg><use href="#i-tg"/></svg><span>Telegram</span><small>ответим в&nbsp;чате</small></a>
+  </div>
+  <p class="menu__addr">Шелковичная, 90А · каждый день 10–20</p>
+</div>
+
+<!-- запись: собираем сообщение и открываем Telegram, без форм и серверов -->
+<dialog class="book" id="book" aria-labelledby="book-h">
+  <form class="book__panel" data-book-form>
+    <div class="book__top">
+      <p class="eyebrow"><svg aria-hidden="true"><use href="#i-cube"/></svg>Запись</p>
+      <button class="book__x" type="button" aria-label="Закрыть" data-book-close><svg><use href="#i-close"/></svg></button>
+    </div>
+    <h2 class="book__h" id="book-h">Запишитесь на&nbsp;установку</h2>
+    <p class="book__lead">Отметьте, что нужно, — подберём оборудование и&nbsp;время, ответим в&nbsp;Telegram</p>
+    <fieldset class="book__f">
+      <legend class="ck">Что ставим</legend>
+      <div class="book__chips" data-book-svc></div>
+    </fieldset>
+    <label class="cfield book__car">
+      <span class="ck">Марка и модель</span>
+      <span class="cfield__box"><input class="cfield__in" name="car" type="text" placeholder="Например, Kia Rio" autocomplete="off" maxlength="60" enterkeyhint="done"><svg class="cfield__ic" aria-hidden="true"><use href="#i-edit"/></svg></span>
+    </label>
+    <div class="book__f">
+      <span class="ck" id="book-when-k">Когда удобно</span>
+      <div class="seg" role="radiogroup" aria-labelledby="book-when-k" style="--i:0" data-book-when>
+        <span class="seg__thumb" aria-hidden="true"></span>
+        <button class="seg__b is-on" type="button" role="radio" aria-checked="true" tabindex="0">Сегодня</button>
+        <button class="seg__b" type="button" role="radio" aria-checked="false" tabindex="-1">Завтра</button>
+        <button class="seg__b" type="button" role="radio" aria-checked="false" tabindex="-1">На неделе</button>
+      </div>
+    </div>
+    <div class="book__btns">
+      <a class="btn btn--acc" href="https://t.me/nikey1m" target="_blank" rel="noopener" data-book-tg data-goal="book_tg">Отправить в&nbsp;Telegram <span class="btn__go btn__go--tg"><svg><use href="#i-tg"/></svg></span></a>
+      <a class="btn btn--glass" href="tel:+79271420042" data-goal="phone"><svg><use href="#i-phone"/></svg>Позвонить</a>
+    </div>
+    <p class="book__note">Консультация и&nbsp;подбор&nbsp;— бесплатно</p>
+  </form>
+</dialog>
+
+</body>
+</html>
